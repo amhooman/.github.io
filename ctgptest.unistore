@@ -1,0 +1,53 @@
+{
+   "storeContent":[
+      {
+         "info":{
+            "title":"ctgptest",
+            "author":"Universal-Team",
+            "description":"A multiapp, JSON script-based updater for Nintendo 3DS",
+            "category":[
+               "utility"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2020-07-02 at 14:03 (UTC)",
+            "license":"gpl-3.0",
+            "version":"v2.5.1"
+         },
+         "Download Universal-Updater.cia (1 MiB)":[
+            {
+               "file":"https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
+               "message":"Downloading ctgp...",
+               "output":"sdmc:/ctgp2.nds",
+               "type":"downloadFile"
+            },
+            {
+               "file":"ctgp2.nds",
+               "message":"Installing Universal-Updater.cia...",
+               "type":"installCia"
+            },
+            {
+               "file":"sdmc:ctgp2.nds",
+               "message":"Deleting Universal-Updater.cia.",
+               "type":"deleteFile"
+            }
+         ]
+      ]
+   }
+],
+"storeInfo":{
+   "title":"Universal-DB",
+   "author":"Universal-Team",
+   "description":"Universal-DB - An online database of 3DS and DS homebrew",
+   "url":"https://db.universal-team.net/unistore/universal-db-beta.unistore",
+   "file":"universal-db-beta.unistore",
+   "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
+   "sheet":"universal-db.t3x",
+   "bg_index":1,
+   "bg_sheet":0,
+   "revision":91,
+   "version":3
+}
