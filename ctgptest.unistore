@@ -57,15 +57,37 @@
             {
                "file":"amhooman.github.io/breakout.nds",
                "message":"Downloading breakout.nds....enjoy!",
-               "output":"sdmc:/3ds/Universal-Updater.3dsx",
+               "output":"sdmc:/breakoutds.nds",
                "type":"downloadFile"
             }
          ]
-      }
+      },
+      {
+        "info": {
+            "title": "megaetk",
+            "author": "etk and teendev",
+            "version": "v2.5.1",
+            "category": ["shooter"],
+            "console": ["DS"],
+            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
+            "license": "gpl-3.0",
+            "icon_index": 0,
+            "sheet_index": 0,
+            "last_updated": "2020-07-02 at 14:03 (UTC)"
+        },
+        "Download MegaETK.nds": [
+            {
+                "file": "https://amhooman.github.io/MegaETk-TD.nds",
+                "message": "Downloading megaetk...",
+                "output": "sdmc:/megaetk.nds",
+                "type": "downloadFile"
+            }
+        ]
+    }
    ],
    "storeInfo":{
       "title":"Slash's Ds and 3ds homebrew",
-      "author":"Universal-Team",
+      "author":"n1swordslasher",
       "description":"Not my work, just posting here to make it easier to access",
       "url":"https://db.universal-team.net/unistore/universal-db-beta.unistore",
       "file":"Slashhomebrew.unistore",
@@ -73,7 +95,7 @@
       "sheet":"universal-db.t3x",
       "bg_index":1,
       "bg_sheet":0,
-      "revision":8,
+      "revision":9,
       "version":3
    }
 }
