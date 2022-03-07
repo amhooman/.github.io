@@ -13,14 +13,6 @@
                 "license": "gpl-3.0",
                 "version": "v2.5.1"
             },
-            "[nightly] Download Universal-Updater.3dsx": [
-                {
-                    "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
-                    "message": "Downloading Universal-Updater.3dsx...",
-                    "output": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
-                    "type": "downloadFile"
-                }
-            ],
             "This one is the one to download": [
                 {
                     "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
@@ -51,7 +43,7 @@
         "sheet": "universal-db.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 92,
+        "revision": 4,
         "version": 3
     }
 }
