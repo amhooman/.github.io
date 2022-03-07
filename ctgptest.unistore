@@ -64,16 +64,16 @@
       }
    ],
    "storeInfo":{
-      "title":"Slash homebrew",
+      "title":"Slash's Ds and 3ds homebrew",
       "author":"Universal-Team",
-      "description":"ctgp nitro, pre patched",
+      "description":"Not my work, just posting here to make it easier to access",
       "url":"https://db.universal-team.net/unistore/universal-db-beta.unistore",
-      "file":"ctgpnitro.unistore",
+      "file":"Slashhomebrew.unistore",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "sheet":"universal-db.t3x",
       "bg_index":1,
       "bg_sheet":0,
-      "revision":4,
+      "revision":8,
       "version":3
    }
 }
