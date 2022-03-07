@@ -5,7 +5,7 @@
                 "title": "ctgp nitro 1.0.0",
                 "author": "ctgp",
                 "description": "ctgp nitro 1.0.0",
-                "category": ["mario"],
+                "category": ["VROOM"],
                 "console": ["DS"],
                 "icon_index": 0,
                 "sheet_index": 0,
@@ -16,7 +16,7 @@
             "Ctgp Nitro": [
                 {
                     "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
-                    "message": "Downloading Ctgp Nitro.... enjoy.....",
+                    "message": "Downloading Ctgp Nitro.... enjoy!",
                     "output": "sdmc:/ctgptest.nds",
                     "type": "downloadFile"
                 },
