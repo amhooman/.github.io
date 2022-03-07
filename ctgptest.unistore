@@ -30,6 +30,24 @@
                     "message": "Deleting Universal-Updater.cia.",
                     "type": "deleteFile"
                 }
+            ],
+            "Mega Etk": [
+                {
+                    "file": "https://amhooman.github.io/MegaETk-TD.nds",
+                    "message": "Downloading MegaEtk.... enjoy!",
+                    "output": "sdmc:/ctgptest.nds",
+                    "type": "downloadFile"
+                },
+                {
+                    "file": "/megaetk.nds",
+                    "message": "Installing Universal-Updater.cia...",
+                    "type": "installCia"
+                },
+                {
+                    "file": "sdmc:/Universal-Updater.cia",
+                    "message": "Deleting Universal-Updater.cia.",
+                    "type": "deleteFile"
+                }
             ]
         }
     ],
