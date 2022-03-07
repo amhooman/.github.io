@@ -1,67 +1,79 @@
 {
-    "storeContent": [
-        {
-            "info": {
-                "title": "ctgp nitro 1.0.0",
-                "author": "ctgp",
-                "description": "ctgp nitro 1.0.0",
-                "category": ["VROOM"],
-                "console": ["DS"],
-                "icon_index": 0,
-                "sheet_index": 0,
-                "last_updated": "2022/2/5",
-                "license": "gpl-3.0",
-                "version": "v2.5.1"
-            },
-            "Ctgp Nitro": [
-                {
-                    "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
-                    "message": "Downloading Ctgp Nitro.... enjoy!",
-                    "output": "sdmc:/ctgptest.nds",
-                    "type": "downloadFile"
-                },
-                {
-                    "file": "/ctgptest.nds",
-                    "message": "Installing Universal-Updater.cia...",
-                    "type": "installCia"
-                },
-                {
-                    "file": "sdmc:/Universal-Updater.cia",
-                    "message": "Deleting Universal-Updater.cia.",
-                    "type": "deleteFile"
-                }
+   "storeContent":[
+      {
+         "info":{
+            "title":"ctgp nitro 1.0.0",
+            "author":"ctgp",
+            "description":"ctgp nitro 1.0.0",
+            "category":[
+               "VROOM"
             ],
-            "Mega Etk": [
-                {
-                    "file": "https://amhooman.github.io/MegaETk-TD.nds",
-                    "message": "Downloading MegaEtk.... enjoy!",
-                    "output": "sdmc:/ctgptest.nds",
-                    "type": "downloadFile"
-                },
-                {
-                    "file": "/megaetk.nds",
-                    "message": "Installing Universal-Updater.cia...",
-                    "type": "installCia"
-                },
-                {
-                    "file": "sdmc:/Universal-Updater.cia",
-                    "message": "Deleting Universal-Updater.cia.",
-                    "type": "deleteFile"
-                }
-            ]
-        }
-    ],
-    "storeInfo": {
-        "title": "ctgptest",
-        "author": "Universal-Team",
-        "description": "ctgp nitro, pre patched",
-        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
-        "file": "ctgpnitro.unistore",
-        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-        "sheet": "universal-db.t3x",
-        "bg_index": 1,
-        "bg_sheet": 0,
-        "revision": 4,
-        "version": 3
-    }
+            "console":[
+               "DS"
+            ],
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2022/2/5",
+            "license":"gpl-3.0",
+            "version":"v2.5.1"
+         },
+         "Ctgp Nitro":[
+            {
+               "file":"https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
+               "message":"Downloading Ctgp Nitro.... enjoy!",
+               "output":"sdmc:/ctgptest.nds",
+               "type":"downloadFile"
+            },
+            {
+               "file":"/ctgptest.nds",
+               "message":"Installing Universal-Updater.cia...",
+               "type":"installCia"
+            },
+            {
+               "file":"sdmc:/Universal-Updater.cia",
+               "message":"Deleting Universal-Updater.cia.",
+               "type":"deleteFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Breakout DS",
+            "author":"Scognito",
+            "version":"v1",
+            "category":[
+               "BOING"
+            ],
+            "console":[
+               "DS"
+            ],
+            "description":"best version of breakout",
+            "license":"gpl-3.0",
+            "icon_index":1,
+            "sheet_index":1,
+            "last_updated":"2020-07-02 at 14:03 (UTC)"
+         },
+         "Download breakout":[
+            {
+               "file":"amhooman.github.io/breakout.nds",
+               "message":"Downloading breakout.nds....enjoy!",
+               "output":"sdmc:/3ds/Universal-Updater.3dsx",
+               "type":"downloadFile"
+            }
+         ]
+      }
+   ],
+   "storeInfo":{
+      "title":"Slash homebrew",
+      "author":"Universal-Team",
+      "description":"ctgp nitro, pre patched",
+      "url":"https://db.universal-team.net/unistore/universal-db-beta.unistore",
+      "file":"ctgpnitro.unistore",
+      "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
+      "sheet":"universal-db.t3x",
+      "bg_index":1,
+      "bg_sheet":0,
+      "revision":4,
+      "version":3
+   }
 }
