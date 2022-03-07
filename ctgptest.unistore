@@ -5,40 +5,14 @@
                 "title": "ctgptest",
                 "author": "ctgp",
                 "description": "ctgp nitro 1.0.0",
-                "category": ["utility"],
+                "category": ["mario"],
                 "console": ["DS"],
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "last_updated": "2022/2/5",
                 "license": "gpl-3.0",
                 "version": "v2.5.1"
             },
-            "Download Universal-Updater.3dsx (2 MiB)": [
-                {
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
-                    "message": "Downloading Universal-Updater.3dsx...",
-                    "output": "%3DSX%/Universal-Updater.3dsx",
-                    "type": "downloadFile"
-                }
-            ],
-            "Download Universal-Updater.cia (1 MiB)": [
-                {
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
-                    "message": "Downloading Universal-Updater.cia...",
-                    "output": "sdmc:/Universal-Updater.cia",
-                    "type": "downloadFile"
-                },
-                {
-                    "file": "/Universal-Updater.cia",
-                    "message": "Installing Universal-Updater.cia...",
-                    "type": "installCia"
-                },
-                {
-                    "file": "sdmc:/Universal-Updater.cia",
-                    "message": "Deleting Universal-Updater.cia.",
-                    "type": "deleteFile"
-                }
-            ],
             "[nightly] Download Universal-Updater.3dsx": [
                 {
                     "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
@@ -50,7 +24,7 @@
             "This one is the one to download": [
                 {
                     "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
-                    "message": "Downloading Universal-Updater.cia...",
+                    "message": "Downloading Ctgp Nitro.... enjoy.....",
                     "output": "sdmc:/ctgptest.nds",
                     "type": "downloadFile"
                 },
