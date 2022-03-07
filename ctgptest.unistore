@@ -3,10 +3,10 @@
         {
             "info": {
                 "title": "ctgptest",
-                "author": "Universal-Team",
-                "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
+                "author": "ctgp",
+                "description": "ctgp nitro 1.0.0",
                 "category": ["utility"],
-                "console": ["3DS"],
+                "console": ["DS"],
                 "icon_index": 0,
                 "sheet_index": 0,
                 "last_updated": "2020-07-02 at 14:03 (UTC)",
@@ -47,7 +47,7 @@
                     "type": "downloadFile"
                 }
             ],
-            "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds": [
+            "This one is the one to download": [
                 {
                     "file": "https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
                     "message": "Downloading Universal-Updater.cia...",
@@ -77,7 +77,7 @@
         "sheet": "universal-db.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 91,
+        "revision": 92,
         "version": 3
     }
 }
