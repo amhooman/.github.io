@@ -83,7 +83,33 @@
                 "type": "downloadFile"
             }
         ]
-    }
+      },
+      {
+         "info":{
+            "title":"DS lightbikes (tron)",
+            "author":"hooman",
+            "version":"v0.01",
+            "category":[
+               "VROOM"
+            ],
+            "console":[
+               "DS"
+            ],
+            "description":"That one scene from Tron",
+            "license":"gpl-3.0",
+            "icon_index":0,
+            "sheet_index":1,
+            "last_updated":"2020-07-02 at 14:03 (UTC)"
+         },
+         "Download DSLB":[
+            {
+               "file":"amhooman.github.io/DSLB.nds",
+               "message":"Downloading Tron....VROOOOOM!",
+               "output":"sdmc:/tron.nds",
+               "type":"downloadFile"
+            }
+         ]
+      }
    ],
    "storeInfo":{
       "title":"Slash's Ds and 3ds homebrew",
@@ -95,7 +121,7 @@
       "sheet":"universal-db.t3x",
       "bg_index":1,
       "bg_sheet":0,
-      "revision":9,
+      "revision":10,
       "version":3
    }
 }
