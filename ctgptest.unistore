@@ -85,6 +85,60 @@
         ]
       },
       {
+        "info": {
+            "title": "OilPanicDS",
+            "author": "Someone",
+            "version": "v2.5.1",
+            "category": ["DONT MESS UP"],
+            "console": ["DS"],
+            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
+            "license": "gpl-3.0",
+            "icon_index": 0,
+            "sheet_index": 0,
+            "last_updated": "2020-07-02 at 14:03 (UTC)"
+        },
+        "Download Oil Panic DS": [
+            {
+                "file": "https://amhooman.github.io/OilPanicDS.nds",
+                "message": "Downloading",
+                "output": "sdmc:/OilPanicDS.nds",
+                "type": "downloadFile"
+            }
+        ]
+      },
+      {
+        "info": {
+            "title": "Super Haxagon",
+            "author": "RedTopper",
+            "version": "v3.4.0",
+            "category": ["utility"],
+            "console": ["3DS"],
+            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
+            "license": "gpl-3.0",
+            "icon_index": 0,
+            "sheet_index": 0,
+            "last_updated": "2020-07-02 at 14:03 (UTC)"
+        },
+        "Download SuperHaxagon.cia": [
+            {
+                "file": "https://amhooman.github.io/SuperHaxagon.cia",
+                "message": "Downloading Super Haxagon...",
+                "output": "sdmc:/superhaxagon.cia",
+                "type": "downloadFile"
+            },
+            {
+                "file": "/SuperHaxagon.cia",
+                "message": "Installing SuperHaxagon.cia...",
+                "type": "installCia"
+            },
+            {
+                "file": "sdmc:/SuperHaxagon.cia",
+                "message": "Deleting SuperHaxagon.cia.",
+                "type": "deleteFile"
+            }
+        ]
+    },
+      {
          "info":{
             "title":"DS lightbikes (tron)",
             "author":"hooman",
