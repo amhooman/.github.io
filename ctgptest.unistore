@@ -108,6 +108,28 @@
       },
       {
         "info": {
+            "title": "Pictochat",
+            "author": "Nintendo",
+            "version": "v1.0.0",
+            "category": ["chat"],
+            "console": ["DS home menu app"],
+            "description": "It isn't on the 3ds. So if you use a 3ds forwarder, you can get it on your home menu",
+            "license": "gpl-3.0",
+            "icon_index": 0,
+            "sheet_index": 0,
+            "last_updated": "2004-11-21 at 14:03 (UTC)"
+        },
+        "Download Oil Panic DS": [
+            {
+                "file": "https://amhooman.github.io/OilPanicDS.nds",
+                "message": "Downloading",
+                "output": "sdmc:/OilPanicDS.nds",
+                "type": "downloadFile"
+            }
+        ]
+      },
+      {
+        "info": {
             "title": "Super Haxagon",
             "author": "RedTopper",
             "version": "v3.4.0",
