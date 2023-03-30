@@ -1,203 +1,45 @@
 {
-   "storeContent":[
-      {
-         "info":{
-            "title":"ctgp nitro 1.0.0",
-            "author":"ctgp",
-            "description":"ctgp nitro 1.0.0",
-            "category":[
-               "VROOM"
-            ],
-            "console":[
-               "DS"
-            ],
-            "icon_index":0,
-            "sheet_index":0,
-            "last_updated":"2022/2/5",
-            "license":"gpl-3.0",
-            "version":"v2.5.1"
-         },
-         "Ctgp Nitro":[
-            {
-               "file":"https://download2276.mediafire.com/1mb3wam4x1ug/w3hmwpnq77uymu4/CTGP_Nitro_EU.nds",
-               "message":"Downloading Ctgp Nitro.... enjoy!",
-               "output":"sdmc:/ctgptest.nds",
-               "type":"downloadFile"
+    "storeContent": [
+        {
+            "info": {
+                "title": "ctgp nitro 1.0.0",
+                "author": "ctgp",
+                "description": "ctgp nitro 1.0.0",
+                "category": ["mario"],
+                "console": ["DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2022/2/5",
+                "license": "gpl-3.0",
+                "version": "v2.5.1"
             },
-            {
-               "file":"/ctgptest.nds",
-               "message":"Installing Universal-Updater.cia...",
-               "type":"installCia"
-            },
-            {
-               "file":"sdmc:/Universal-Updater.cia",
-               "message":"Deleting Universal-Updater.cia.",
-               "type":"deleteFile"
-            }
-         ]
-      },
-      {
-         "info":{
-            "title":"Breakout DS",
-            "author":"Scognito",
-            "version":"v1",
-            "category":[
-               "BOING"
-            ],
-            "console":[
-               "DS"
-            ],
-            "description":"best version of breakout",
-            "license":"gpl-3.0",
-            "icon_index":0,
-            "sheet_index":0,
-            "last_updated":"2020-07-02 at 14:03 (UTC)"
-         },
-         "Download breakout":[
-            {
-               "file":"amhooman.github.io/breakout.nds",
-               "message":"Downloading breakout.nds....enjoy!",
-               "output":"sdmc:/breakoutds.nds",
-               "type":"downloadFile"
-            }
-         ]
-      },
-      {
-        "info": {
-            "title": "megaetk",
-            "author": "etk and teendev",
-            "version": "v2.5.1",
-            "category": ["shooter"],
-            "console": ["DS"],
-            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
-            "license": "gpl-3.0",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2020-07-02 at 14:03 (UTC)"
-        },
-        "Download MegaETK.nds": [
-            {
-                "file": "https://amhooman.github.io/MegaETk-TD.nds",
-                "message": "Downloading megaetk...",
-                "output": "sdmc:/megaetk.nds",
-                "type": "downloadFile"
-            }
-        ]
-      },
-      {
-        "info": {
-            "title": "Tetris Hard Drop",
-            "author": "Someone",
-            "version": "v2.5.1",
-            "category": ["DONT MESS UP"],
-            "console": ["DS"],
-            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
-            "license": "gpl-3.0",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2020-07-02 at 14:03 (UTC)"
-        },
-        "Download Tetris Hard Drop: [
-            {
-                "file": "https://github.com/amhooman/amhooman.github.io/raw/main/thd.nes",
-                "message": "Downloading",
-                "output": "sdmc:/thd.nes",
-                "type": "downloadFile"
-            }
-        ]
-      },
-      {
-        "info": {
-            "title": "Pictochat",
-            "author": "Nintendo",
-            "version": "v1.0.0",
-            "category": ["chat"],
-            "console": ["DS home menu app"],
-            "description": "It isn't on the 3ds. So if you use a 3ds forwarder, you can get it on your home menu",
-            "license": "gpl-3.0",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2004-11-21 at 14:03 (UTC)"
-        },
-        "Download Oil Panic DS": [
-            {
-                "file": "https://amhooman.github.io/OilPanicDS.nds",
-                "message": "Downloading",
-                "output": "sdmc:/OilPanicDS.nds",
-                "type": "downloadFile"
-            }
-        ]
-      },
-      {
-        "info": {
-            "title": "Super Haxagon",
-            "author": "RedTopper",
-            "version": "v3.4.0",
-            "category": ["utility"],
-            "console": ["3DS"],
-            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
-            "license": "gpl-3.0",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2020-07-02 at 14:03 (UTC)"
-        },
-        "Download SuperHaxagon.cia": [
-            {
-                "file": "https://amhooman.github.io/SuperHaxagon.cia",
-                "message": "Downloading Super Haxagon...",
-                "output": "sdmc:/superhaxagon.cia",
-                "type": "downloadFile"
-            },
-            {
-                "file": "/SuperHaxagon.cia",
-                "message": "Installing SuperHaxagon.cia...",
-                "type": "installCia"
-            },
-            {
-                "file": "sdmc:/SuperHaxagon.cia",
-                "message": "Deleting SuperHaxagon.cia.",
-                "type": "deleteFile"
-            }
-        ]
-    },
-      {
-         "info":{
-            "title":"DS lightbikes (tron)",
-            "author":"hooman",
-            "version":"v0.01",
-            "category":[
-               "VROOM"
-            ],
-            "console":[
-               "DS"
-            ],
-            "description":"That one scene from Tron",
-            "license":"gpl-3.0",
-            "icon_index":0,
-            "sheet_index":0,
-            "last_updated":"2020-07-02 at 14:03 (UTC)"
-         },
-         "Download DSLB":[
-            {
-               "file":"amhooman.github.io/DSLB.nds",
-               "message":"Downloading Tron....VROOOOOM!",
-               "output":"sdmc:/tron.nds",
-               "type":"downloadFile"
-            }
-         ]
-      }
-   ],
-   "storeInfo":{
-      "title":"Slash's Ds and 3ds homebrew",
-      "author":"n1swordslasher",
-      "description":"Not my work, just posting here to make it easier to access",
-      "url":"https://db.universal-team.net/unistore/universal-db-beta.unistore",
-      "file":"Slashhomebrew.unistore",
-      "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
-      "sheet":"universal-db.t3x",
-      "bg_index":1,
-      "bg_sheet":0,
-      "revision":10,
-      "version":3
-   }
+            "Ctgp Nitro": [
+                {
+                    "file": "https://github.com/amhooman/amhooman.github.io/raw/main/thd.nes",
+                    "message": "Downloading Ctgp Nitro.... enjoy.....",
+                    "output": "sdmc:/ctgptest.nds",
+                    "type": "downloadFile"
+                },
+                {
+                    "file": "/ctgptest.nds",
+                    "message": "Installing Universal-Updater.cia...",
+                    "type": "installCia"
+                },
+                
+            ]
+        }
+    ],
+    "storeInfo": {
+        "title": "ctgptest",
+        "author": "Universal-Team",
+        "description": "ctgp nitro, pre patched",
+        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "file": "ctgpnitro.unistore",
+        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheet": "universal-db.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 4,
+        "version": 3
+    }
 }
