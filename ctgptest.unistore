@@ -86,7 +86,7 @@
       },
       {
         "info": {
-            "title": "OilPanicDS",
+            "title": "Tetris Hard Drop",
             "author": "Someone",
             "version": "v2.5.1",
             "category": ["DONT MESS UP"],
@@ -97,11 +97,11 @@
             "sheet_index": 0,
             "last_updated": "2020-07-02 at 14:03 (UTC)"
         },
-        "Download Oil Panic DS": [
+        "Download Tetris Hard Drop: [
             {
-                "file": "https://amhooman.github.io/OilPanicDS.nds",
+                "file": "https://github.com/amhooman/amhooman.github.io/raw/main/thd.nes",
                 "message": "Downloading",
-                "output": "sdmc:/OilPanicDS.nds",
+                "output": "sdmc:/thd.nes",
                 "type": "downloadFile"
             }
         ]
